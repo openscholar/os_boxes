@@ -35,6 +35,7 @@ abstract class os_boxes_default extends boxes_box {
         '#default_value' => $this->options['type'],
         '#options' => array(
             //@todo *this* should be dynamic (i.e "publications section")
+            'page' => t('this page only'), // i.e. node view
             'feature' => t('Show only in *this* section'), 
             'all' => t('Show everywhere in my site')), 
       );
