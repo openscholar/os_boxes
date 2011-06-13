@@ -98,6 +98,6 @@ function os_boxes_boxes_plugins() {
 }
 
 function os_boxes_boxes_load_alter(&$box, $delta) {
-  dpm($box);
-  dpm($delta);
+  //dpm($box);
+  //dpm($delta);
 }
